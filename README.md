@@ -1,2 +1,19 @@
-# interactive-form-validation
-A simple interactive registration form built with HTML, CSS, and JavaScript. It includes real-time validation for name, email, phone number, and password fields, with error messages displayed dynamically. The form also supports country code selection for phone numbers, password visibility toggle, and saving user data to localStorage.
+# Interactive Form Validation
+
+This project is a registration form with interactive validation using **HTML, CSS, and JavaScript**.  
+It demonstrates how to validate user input in real-time and provide clear error messages.
+
+## Features
+- ✅ Name validation (minimum 3 characters)
+- ✅ Email validation with regex
+- ✅ Phone validation (numbers only, minimum 7 digits)
+- ✅ Country code selection
+- ✅ Password validation (minimum 8 characters, uppercase, number, special character)
+- ✅ Password visibility toggle
+- ✅ Error messages displayed dynamically
+- ✅ Save user data to localStorage
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
