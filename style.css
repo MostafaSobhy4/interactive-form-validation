@@ -38,6 +38,10 @@ body {
     box-shadow: 10px 10px 15px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+.error {
+    margin: 5px;
+    display: block;
+}
 .container form {
     width: 350px;
 }
