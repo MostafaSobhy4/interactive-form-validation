@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <title>Interactive Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="userForm">
+
+      <h2>Registration Form</h2>
+
+      <!-- Name -->
+      <div class="input-box">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <!-- Email -->
+      <div class="input-box">
+        <input type="email" id="email" name="email" placeholder="Email address">
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <!-- Phone -->
+      <div class="input-box">
+        <div class="num-field">
+          <select id="countryCode">
+            <option value="+20">+20</option>
+            <option value="+966">+966</option>
+            <option value="+971">+971</option>
+            <option value="+965">+965</option>
+            <option value="+974">+974</option>
+            <option value="+973">+973</option>
+            <option value="+1">+1</option>
+          </select>
+          <input type="text" id="phone" name="phone" placeholder="Phone">
+        </div>
+        <small class="error" id="phoneError"></small>
+      </div>
+
+      <!-- Password -->
+      <div class="input-box">
+        <div class="password-field">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <i class="fa-solid fa-eye-slash" id="toggle-password"></i>
+        </div>
+        <small class="error" id="passwordError"></small>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit">Submit</button>
+
+      <!-- Success Message -->
+      <p id="successMessage" class="success"></p>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
