@@ -33,7 +33,7 @@ The project focuses on real-time validation, dynamic error handling, and secure 
 ---
 
 ## 📷 Preview
-<img width="1885" height="766" alt="image" src="https://github.com/user-attachments/assets/1634bbd2-a98c-4e58-ba71-fe5a7a2b6620" />
+<img width="1878" height="767" alt="image" src="https://github.com/user-attachments/assets/892e43bc-3838-418b-83fc-c038b8c3f27b" />
 
 ---
 
